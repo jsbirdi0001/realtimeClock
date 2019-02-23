@@ -1,0 +1,34 @@
+.border-custom{
+	border: 3px solid black;
+}
+.border-custom-primary{
+	border-color: blue;
+	border-width: 2px;
+}
+#hideSecond, #showSecond{
+	cursor: pointer;
+}
+.background-custom{
+	border-radius: 20px;
+	border-right: 20px solid gray;
+	border-left: 20px solid gray;
+}
+.clock{
+	animation-name: backgroundChange;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;;
+}
+@keyframes backgroundChange{
+	0%{
+		background-color: rgb(255, 210, 210);
+	}
+	33%{
+		background-color: rgb(210,255,210);
+	}
+	66%{
+		background-color: rgb(210,210,255);
+	}
+	100%{
+		background-color: rgb(255, 210, 210);
+	}
+}
