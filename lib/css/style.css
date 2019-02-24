@@ -12,6 +12,9 @@
 	border-radius: 20px;
 	border-right: 20px solid gray;
 	border-left: 20px solid gray;
+	background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/14/75/49582074207339b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .clock{
 	animation-name: backgroundChange;
